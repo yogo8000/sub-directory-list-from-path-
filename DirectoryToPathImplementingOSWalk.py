@@ -1,5 +1,6 @@
 import os
 
+# the file separator, Matches the OS that runs the script.
 OS_FILE_SEP = os.sep
 
 
