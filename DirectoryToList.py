@@ -3,7 +3,7 @@ import os
 
 def create_list_from_directory_path(directory_path):
     """
-    This function creates a list of all sub directories of a certain directory received.
+    This function creates a list of all sub directories paths of a certain directory received.
     The function first checks if the path given as input is a valid path and if it
     refers to a directory, If not it throws a corresponding exception.
     If the tests mentioned above are correct then the function creates a list from

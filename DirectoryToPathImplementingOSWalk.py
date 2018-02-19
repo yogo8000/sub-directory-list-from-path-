@@ -1,6 +1,5 @@
 import os
 
-
 OS_FILE_SEP = os.sep
 
 
@@ -28,7 +27,7 @@ def generate_sub_directories_list(path, directories_list):
 
 def directory_path_to_list(directory_path):
     """
-     The function first checks if the path given as input is a valid path and if it
+    The function first checks if the path given as input is a valid path and if it
     refers to a directory, If not it throws a corresponding exception.
     If the tests mentioned above are correct then the function initializes an empty list and
     calls another function that updates the entire list of paths and if the list contains
@@ -55,4 +54,3 @@ def directory_path_to_list(directory_path):
     if directory_path in directories_list:
         directories_list.remove(directory_path)
     return directories_list
-
