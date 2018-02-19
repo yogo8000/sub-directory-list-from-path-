@@ -26,7 +26,7 @@ def generate_subdirectories_list(path, directories_list):
         directories_list.append(path)
 
 
-def directory_to_list(directory_path):
+def directory_path_to_list(directory_path):
     """
      The function first checks if the path given as input is a valid path and if it
     refers to a directory, If not it throws a corresponding exception.

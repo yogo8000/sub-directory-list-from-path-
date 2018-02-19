@@ -1,7 +1,7 @@
 import os
 
 
-def create_list_from_directory(directory_path):
+def create_list_from_directory_path(directory_path):
     """
     This function creates a list of all subdirectories of a certain directory received.
     The function first checks if the path given as input is a valid path and if it
